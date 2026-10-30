@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en" data-refpop="{&#34;open&#34;:&#34;Open in the notes →&#34;,&#34;goto&#34;:&#34;Go there →&#34;,&#34;loading&#34;:&#34;Loading…&#34;,&#34;failed&#34;:&#34;Could not load this reference.&#34;}"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>About · Finite Groups and Their Representations</title><meta name="description" content="About this course"><link rel="icon" href="/grupes/favicon.svg"><link rel="alternate" hreflang="lt" href="/grupes/about"><link rel="alternate" hreflang="en" href="/grupes/en/about"><script>
+      // Applied before first paint, so the page never flashes the wrong theme.
+      (function () {
+        try {
+          var t = localStorage.getItem("finite-groups-theme");
+          if (t) document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script><link rel="stylesheet" href="/grupes/_astro/about.DoXkBJnX.css"></head> <body> <script type="module" src="/grupes/_astro/UserNav.astro_astro_type_script_index_0_lang.DBZI4Erb.js"></script>  <div class="board" aria-hidden="true"><div class="board-ink"></div></div> <script>
+      // Fade the board out over the first 60% of a screen of scrolling.
+      (function () {
+        var board = document.querySelector(".board"), frame = 0;
+        if (!board) return;
+        function update() {
+          frame = 0;
+          board.style.opacity = String(Math.max(0, 1 - window.scrollY / (window.innerHeight * 0.6)));
+        }
+        window.addEventListener("scroll", function () {
+          if (!frame) frame = requestAnimationFrame(update);
+        }, { passive: true });
+        update();
+      })();
+    </script> <a class="skip-link" href="#main">Skip to content</a> <header class="site-header"> <div class="wrap bar">  <a class="brand" href="/grupes/en/">Finite Groups</a> <nav class="site-nav">  <div class="nav-links"> <a href="/grupes/en/"> Lectures </a><a href="/grupes/en/problems"> Problems </a><a href="/grupes/en/review"> Review </a><a href="/grupes/en/ai"> Study with AI </a><a href="/grupes/en/literature"> Bibliography </a><a href="/grupes/en/about" aria-current="page"> About </a><a href="/grupes/en/search"> Search </a> </div>  <a class="matfiz-user-nav" href="/grupes/en/user" data-matfiz-nav data-label="My progress" aria-label="My progress" title="My progress" data-matfiz-course="{&#34;version&#34;:1,&#34;id&#34;:&#34;finite-groups&#34;,&#34;prefix&#34;:&#34;finite-groups-&#34;,&#34;titles&#34;:{&#34;lt&#34;:&#34;Baigtinės grupės ir jų įvaizdžiai&#34;,&#34;en&#34;:&#34;Finite Groups and Their Representations&#34;},&#34;homes&#34;:{&#34;lt&#34;:&#34;/grupes/&#34;,&#34;en&#34;:&#34;/grupes/en/&#34;},&#34;details&#34;:{&#34;lt&#34;:&#34;/grupes/&#34;,&#34;en&#34;:&#34;/grupes/en/&#34;}}" hidden data-astro-cid-udyq3rbu> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-udyq3rbu> <path d="M3 3v18h18" data-astro-cid-udyq3rbu></path><path d="m7 15 4-4 3 3 5-6" data-astro-cid-udyq3rbu></path> </svg> </a>   <div class="lang-switch" role="group" aria-label="Language"> <a href="/grupes/about" hreflang="lt" lang="lt" aria-label="Lietuvių" title="Lietuvių"> LT </a><a href="/grupes/en/about" hreflang="en" lang="en" aria-label="English" title="English" aria-current="true"> EN </a> </div> <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch between light and dark theme"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button> </nav> </div> </header> <main class="wrap" id="main" data-pagefind-body="true">  <header class="page-head"> <h1>About this course</h1> <p class="lede"> The companion to Finite Groups and Their Representations — structure, characters and the symmetric group. </p> </header> <div class="prose">  <h2>What is here</h2> <p>14 lectures, 48 definitions, 113 numbered results, 112 proofs, 63 worked examples, 11 figures.</p><p>The course moves from finite-group structure to representations and characters, then to the symmetric group and Schur–Weyl duality. Notes, numbered results, figures and student sheets are generated from the reviewed LaTeX sources.</p><p>English is the primary source; Lithuanian is the default website language. Each lecture has four self-checks, including numerical questions. Study links lead to the relevant section; opening them does not record mastery.</p> <h2>Questions and progress</h2> <p>The student sheets contain questions only. Hints, answers and worked solutions stay in the source repository. Self-checks offer optional hints and an explanation after checking an answer.</p><p>Progress, outcome ticks and presentation annotations are stored in this browser. The optional Matfiz profile and backup tools are shared with sibling courses; finite-groups learning records have their own keys. No sign-in or server synchronisation is involved.</p> <h2>Conventions</h2> <p>Permutations compose right to left. Actions and modules are left actions. The dihedral group D_n has order 2n. Character inner products are antilinear in the first slot.</p> <p><a href="/grupes/en/">← Back to lectures</a></p> </div>  </main> <footer class="site-footer"> <div class="wrap"> <p> Finite Groups and Their Representations — Structure, Characters and the Symmetric Group.
+  The exercise sheets are published here as questions only. </p> </div> </footer> <script>
+      document.querySelector("[data-theme-toggle]")?.addEventListener("click", function () {
+        var root = document.documentElement;
+        var current = root.getAttribute("data-theme");
+        if (!current) {
+          current = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        var next = current === "dark" ? "light" : "dark";
+        root.setAttribute("data-theme", next);
+        try { localStorage.setItem("finite-groups-theme", next); } catch (e) {}
+      });
+    </script>  <script type="module" src="/grupes/_astro/Base.astro_astro_type_script_index_0_lang.CaQP8g50.js"></script> </body> </html>

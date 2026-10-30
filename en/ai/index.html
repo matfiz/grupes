@@ -1,0 +1,164 @@
+<!DOCTYPE html><html lang="en" data-refpop="{&#34;open&#34;:&#34;Open in the notes →&#34;,&#34;goto&#34;:&#34;Go there →&#34;,&#34;loading&#34;:&#34;Loading…&#34;,&#34;failed&#34;:&#34;Could not load this reference.&#34;}"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Study with AI · Finite Groups and Their Representations</title><meta name="description" content="Choose a lecture and a section. Edit and copy a prompt, then check every claim against the notes."><link rel="icon" href="/grupes/favicon.svg"><link rel="alternate" hreflang="lt" href="/grupes/ai"><link rel="alternate" hreflang="en" href="/grupes/en/ai"><script>
+      // Applied before first paint, so the page never flashes the wrong theme.
+      (function () {
+        try {
+          var t = localStorage.getItem("finite-groups-theme");
+          if (t) document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script><link rel="stylesheet" href="/grupes/_astro/about.DoXkBJnX.css"></head> <body> <script type="module" src="/grupes/_astro/UserNav.astro_astro_type_script_index_0_lang.DBZI4Erb.js"></script>  <div class="board" aria-hidden="true"><div class="board-ink"></div></div> <script>
+      // Fade the board out over the first 60% of a screen of scrolling.
+      (function () {
+        var board = document.querySelector(".board"), frame = 0;
+        if (!board) return;
+        function update() {
+          frame = 0;
+          board.style.opacity = String(Math.max(0, 1 - window.scrollY / (window.innerHeight * 0.6)));
+        }
+        window.addEventListener("scroll", function () {
+          if (!frame) frame = requestAnimationFrame(update);
+        }, { passive: true });
+        update();
+      })();
+    </script> <a class="skip-link" href="#main">Skip to content</a> <header class="site-header"> <div class="wrap bar">  <a class="brand" href="/grupes/en/">Finite Groups</a> <nav class="site-nav">  <div class="nav-links"> <a href="/grupes/en/"> Lectures </a><a href="/grupes/en/problems"> Problems </a><a href="/grupes/en/review"> Review </a><a href="/grupes/en/ai" aria-current="page"> Study with AI </a><a href="/grupes/en/literature"> Bibliography </a><a href="/grupes/en/about"> About </a><a href="/grupes/en/search"> Search </a> </div>  <a class="matfiz-user-nav" href="/grupes/en/user" data-matfiz-nav data-label="My progress" aria-label="My progress" title="My progress" data-matfiz-course="{&#34;version&#34;:1,&#34;id&#34;:&#34;finite-groups&#34;,&#34;prefix&#34;:&#34;finite-groups-&#34;,&#34;titles&#34;:{&#34;lt&#34;:&#34;Baigtinės grupės ir jų įvaizdžiai&#34;,&#34;en&#34;:&#34;Finite Groups and Their Representations&#34;},&#34;homes&#34;:{&#34;lt&#34;:&#34;/grupes/&#34;,&#34;en&#34;:&#34;/grupes/en/&#34;},&#34;details&#34;:{&#34;lt&#34;:&#34;/grupes/&#34;,&#34;en&#34;:&#34;/grupes/en/&#34;}}" hidden data-astro-cid-udyq3rbu> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-udyq3rbu> <path d="M3 3v18h18" data-astro-cid-udyq3rbu></path><path d="m7 15 4-4 3 3 5-6" data-astro-cid-udyq3rbu></path> </svg> </a>   <div class="lang-switch" role="group" aria-label="Language"> <a href="/grupes/ai" hreflang="lt" lang="lt" aria-label="Lietuvių" title="Lietuvių"> LT </a><a href="/grupes/en/ai" hreflang="en" lang="en" aria-label="English" title="English" aria-current="true"> EN </a> </div> <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch between light and dark theme"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button> </nav> </div> </header> <main class="wrap" id="main" data-pagefind-body="true">  <header class="page-head"> <h1>Study with an assistant</h1> <p class="lede">Choose a lecture and a section. Edit and copy a prompt, then check every claim against the notes.</p> </header> <section class="ask" id="ask" aria-labelledby="ask-heading" data-ask="{&#34;lectures&#34;:[{&#34;id&#34;:1,&#34;title&#34;:&#34;Groups acting&#34;,&#34;sections&#34;:[&#34;Groups, subgroups, homomorphisms&#34;,&#34;Actions&#34;,&#34;Orbit–stabiliser and Lagrange&#34;,&#34;Conjugation and the class equation&#34;,&#34;Cayley and orbit counting&#34;,&#34;Prime-power groups and Cauchy’s theorem&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:2,&#34;title&#34;:&#34;Quotients, products, and the symmetric group&#34;,&#34;sections&#34;:[&#34;Normal subgroups and quotients&#34;,&#34;The isomorphism and correspondence theorems&#34;,&#34;Direct and semidirect products&#34;,&#34;S_n: cycles, conjugacy and z_mu&#34;,&#34;Sign, generators and A_n&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:3,&#34;title&#34;:&#34;Sylow theory&#34;,&#34;sections&#34;:[&#34;p-groups&#34;,&#34;Existence&#34;,&#34;Conjugacy and counting&#34;,&#34;Order pq and non-simplicity&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:4,&#34;title&#34;:&#34;Simple, solvable and nilpotent groups&#34;,&#34;sections&#34;:[&#34;Simple groups; A₅&#34;,&#34;Composition series and Jordan–Hölder&#34;,&#34;Solvable groups and the abelianisation&#34;,&#34;Nilpotent groups and p-groups&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:5,&#34;title&#34;:&#34;Representations and modules&#34;,&#34;sections&#34;:[&#34;Representations and modules&#34;,&#34;Averaging and Maschke&#34;,&#34;Schur’s lemma and multiplicities&#34;,&#34;Abelian groups&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:6,&#34;title&#34;:&#34;Characters&#34;,&#34;sections&#34;:[&#34;Characters and class functions&#34;,&#34;Averaging on Hom and orthonormality&#34;,&#34;Tensor products, duals, Symp² and Lambda²&#34;,&#34;Lifting from quotients&#34;,&#34;The size of character values&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:7,&#34;title&#34;:&#34;The group algebra&#34;,&#34;sections&#34;:[&#34;Algebras and modules&#34;,&#34;The regular module and the matrix blocks&#34;,&#34;The centre and the class count&#34;,&#34;Commutants&#34;,&#34;Centraliser algebras&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:8,&#34;title&#34;:&#34;Induction&#34;,&#34;sections&#34;:[&#34;The coset picture&#34;,&#34;grpalg{G}⊗_{grpalg{H}}W and its character&#34;,&#34;Frobenius reciprocity&#34;,&#34;Mackey’s formula and the irreducibility criterion&#34;,&#34;Permutation modules&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:9,&#34;title&#34;:&#34;The arithmetic of characters&#34;,&#34;sections&#34;:[&#34;Algebraic integers&#34;,&#34;Central characters and dimUmidabs{G}&#34;,&#34;Averages of roots of unity&#34;,&#34;Burnside’s theorem&#34;,&#34;The Frobenius–Schur indicator&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:10,&#34;title&#34;:&#34;The Gelfand–Tsetlin basis of S_n&#34;,&#34;sections&#34;:[&#34;Multiplicity-free branching&#34;,&#34;Gelfand–Tsetlin bases and GZ{n}&#34;,&#34;Jucys–Murphy elements&#34;,&#34;Generation&#34;,&#34;The degenerate affine Hecke relations&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:11,&#34;title&#34;:&#34;The Jucys–Murphy spectrum&#34;,&#34;sections&#34;:[&#34;Two-dimensional analysis&#34;,&#34;The braid exclusion&#34;,&#34;Spec(n)subseteqCont(n)&#34;,&#34;Content vectors and standard tableaux&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:12,&#34;title&#34;:&#34;Partitions, branching and Young's orthogonal form&#34;,&#34;sections&#34;:[&#34;Shapes and admissible transpositions&#34;,&#34;Connectivity and the classification&#34;,&#34;The orthogonal form&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:13,&#34;title&#34;:&#34;The characters of S_n&#34;,&#34;sections&#34;:[&#34;Symmetric functions and the characteristic&#34;,&#34;Schur functions, Cauchy and partial/partialp₁&#34;,&#34;Integrality and predecessors&#34;,&#34;The identification&#34;,&#34;The Frobenius formula&#34;,&#34;Worked example&#34;]},{&#34;id&#34;:14,&#34;title&#34;:&#34;Schur–Weyl duality&#34;,&#34;sections&#34;:[&#34;Commuting actions&#34;,&#34;Double centralisers for an image of grpalg{G}&#34;,&#34;Polarisation&#34;,&#34;The decomposition and its characters&#34;,&#34;Interlacing and Gelfand–Tsetlin patterns&#34;,&#34;Worked example&#34;]}],&#34;context&#34;:&#34;I am studying Lecture {n}, “{title}”, section “{topic}”, in Finite Groups and Their Representations. Conventions: permutations compose right to left; actions and modules are left actions; D_n has order 2n; character inner products are antilinear in the first slot. Use the lecture’s notation and only tools taught so far.&#34;,&#34;modes&#34;:[{&#34;id&#34;:&#34;explain&#34;,&#34;label&#34;:&#34;Explain with an example&#34;,&#34;description&#34;:&#34;A short explanation, a small example, then a task for me.&#34;,&#34;detailLabel&#34;:&#34;What should we focus on?&#34;,&#34;detailPlaceholder&#34;:&#34;e.g. why a coset space is not always a quotient group&#34;,&#34;detailEmpty&#34;:&#34;&#34;,&#34;detailFilled&#34;:&#34;My question or argument: {detail}&#34;,&#34;template&#34;:&#34;{context}\n{detail}\n\nExplain the idea briefly, stating all hypotheses. Work one small finite-group or matrix example. Give one similar exercise, leave it unsolved and wait for my reply.&#34;},{&#34;id&#34;:&#34;quiz&#34;,&#34;label&#34;:&#34;Quiz me&#34;,&#34;description&#34;:&#34;One retrieval question at a time.&#34;,&#34;detailLabel&#34;:&#34;What should we focus on?&#34;,&#34;detailPlaceholder&#34;:&#34;e.g. why a coset space is not always a quotient group&#34;,&#34;detailEmpty&#34;:&#34;&#34;,&#34;detailFilled&#34;:&#34;My question or argument: {detail}&#34;,&#34;template&#34;:&#34;{context}\n{detail}\n\nAsk one question at a time and wait. Begin with a precise definition, then an example, a counterexample and a short computation. Give a hint if needed.&#34;},{&#34;id&#34;:&#34;check&#34;,&#34;label&#34;:&#34;Check my argument&#34;,&#34;description&#34;:&#34;Check my steps without replacing my proof.&#34;,&#34;detailLabel&#34;:&#34;What should we focus on?&#34;,&#34;detailPlaceholder&#34;:&#34;e.g. why a coset space is not always a quotient group&#34;,&#34;detailEmpty&#34;:&#34;&#34;,&#34;detailFilled&#34;:&#34;My question or argument: {detail}&#34;,&#34;template&#34;:&#34;{context}\n{detail}\n\nAsk me for my argument first. Check each step against its hypotheses. Point me to the first gap and offer a small case to test; let me repair it. Do not provide a complete replacement proof.&#34;}]}" data-text="{&#34;copied&#34;:&#34;Copied&#34;,&#34;selected&#34;:&#34;Select and copy the prompt.&#34;}"> <h2 id="ask-heading">Ask about a lecture</h2> <div class="ask-card"> <label class="ask-step"> <span>Lecture</span> <select class="select-field" data-lecture> <option value="1"> 1 · Groups acting </option><option value="2"> 2 · Quotients, products, and the symmetric group </option><option value="3"> 3 · Sylow theory </option><option value="4"> 4 · Simple, solvable and nilpotent groups </option><option value="5"> 5 · Representations and modules </option><option value="6"> 6 · Characters </option><option value="7"> 7 · The group algebra </option><option value="8"> 8 · Induction </option><option value="9"> 9 · The arithmetic of characters </option><option value="10"> 10 · The Gelfand–Tsetlin basis of S_n </option><option value="11"> 11 · The Jucys–Murphy spectrum </option><option value="12"> 12 · Partitions, branching and Young&#39;s orthogonal form </option><option value="13"> 13 · The characters of S_n </option><option value="14" selected> 14 · Schur–Weyl duality </option> </select> </label> <fieldset class="ask-step"> <legend>Section</legend> <div class="chip-row" data-topics> <label class="topic-chip"><input type="radio" name="ask-topic" value="Commuting actions" checked><span>Commuting actions</span></label><label class="topic-chip"><input type="radio" name="ask-topic" value="Double centralisers for an image of grpalg{G}"><span>Double centralisers for an image of grpalg{G}</span></label><label class="topic-chip"><input type="radio" name="ask-topic" value="Polarisation"><span>Polarisation</span></label><label class="topic-chip"><input type="radio" name="ask-topic" value="The decomposition and its characters"><span>The decomposition and its characters</span></label><label class="topic-chip"><input type="radio" name="ask-topic" value="Interlacing and Gelfand–Tsetlin patterns"><span>Interlacing and Gelfand–Tsetlin patterns</span></label><label class="topic-chip"><input type="radio" name="ask-topic" value="Worked example"><span>Worked example</span></label> </div> </fieldset> <fieldset class="ask-step"> <legend>Study mode</legend> <div class="mode-grid"> <label class="mode"> <input type="radio" name="ask-mode" value="explain" checked> <span class="mode-label">Explain with an example</span> <span class="mode-description">A short explanation, a small example, then a task for me.</span> </label><label class="mode"> <input type="radio" name="ask-mode" value="quiz"> <span class="mode-label">Quiz me</span> <span class="mode-description">One retrieval question at a time.</span> </label><label class="mode"> <input type="radio" name="ask-mode" value="check"> <span class="mode-label">Check my argument</span> <span class="mode-description">Check my steps without replacing my proof.</span> </label> </div> </fieldset> <label class="ask-step"> <span data-detail-label>What should we focus on?</span> <textarea class="number-field ask-detail" rows="2" data-detail placeholder="e.g. why a coset space is not always a quotient group"></textarea> </label> <label class="ask-step"> <span>Your editable prompt</span> <textarea class="ask-preview" rows="12" data-preview spellcheck="false"></textarea> </label> <div class="ask-actions"> <a class="btn btn-primary" href="https://www.google.com/search?udm=50" target="_blank" rel="noopener" data-ai-mode>Open Google AI ↗</a> <button class="btn" type="button" data-copy-preview>Copy prompt</button> </div> <p class="ask-status" data-status role="status" aria-live="polite">You can paste this prompt into any assistant. Nothing is submitted automatically.</p> </div> </section><h2>Test the hypotheses</h2> <p class="section-intro">Left multiplication always defines a group action on a coset space; the usual quotient-group multiplication requires normality.</p> <div class="chat"> <div class="chat-turn chat-ai"> <div class="chat-bubble"> <span class="chat-who">Assistant</span> <p>What must be checked before multiplying cosets?</p> </div>  </div><div class="chat-turn chat-you"> <div class="chat-bubble"> <span class="chat-who">You</span> <p>That the result is independent of the chosen representatives.</p> </div>  </div> </div> <h2>Study habits</h2> <ul class="habits"> <li><b>Try the question before opening a hint.</b> </li><li><b>State the definitions and hypotheses you used.</b> </li><li><b>Check a small group, a matrix or a degenerate case.</b> </li><li><b>Explain the repair in your own words.</b> </li> </ul> <h2>Prompts to copy</h2> <p class="section-intro">Edit the topic and state your attempt.</p> <details class="prompt-card" data-prompt> <summary> <span class="prompt-title">Explain with an example</span> <span class="prompt-when">A short explanation, a small example, then a task for me.</span> </summary> <div class="prompt-body"><pre data-prompt-text>I am studying Lecture [N], “[lecture]”, section “[section]”, in Finite Groups and Their Representations. Conventions: permutations compose right to left; actions and modules are left actions; D_n has order 2n; character inner products are antilinear in the first slot. Use the lecture’s notation and only tools taught so far.
+
+Explain the idea briefly, stating all hypotheses. Work one small finite-group or matrix example. Give one similar exercise, leave it unsolved and wait for my reply.</pre></div> <div class="prompt-actions"> <button class="btn" type="button" data-copy>Copy prompt</button> <span class="ask-status" data-status role="status" aria-live="polite"></span> </div> </details><details class="prompt-card" data-prompt> <summary> <span class="prompt-title">Quiz me</span> <span class="prompt-when">One retrieval question at a time.</span> </summary> <div class="prompt-body"><pre data-prompt-text>I am studying Lecture [N], “[lecture]”, section “[section]”, in Finite Groups and Their Representations. Conventions: permutations compose right to left; actions and modules are left actions; D_n has order 2n; character inner products are antilinear in the first slot. Use the lecture’s notation and only tools taught so far.
+
+Ask one question at a time and wait. Begin with a precise definition, then an example, a counterexample and a short computation. Give a hint if needed.</pre></div> <div class="prompt-actions"> <button class="btn" type="button" data-copy>Copy prompt</button> <span class="ask-status" data-status role="status" aria-live="polite"></span> </div> </details><details class="prompt-card" data-prompt> <summary> <span class="prompt-title">Check my argument</span> <span class="prompt-when">Check my steps without replacing my proof.</span> </summary> <div class="prompt-body"><pre data-prompt-text>I am studying Lecture [N], “[lecture]”, section “[section]”, in Finite Groups and Their Representations. Conventions: permutations compose right to left; actions and modules are left actions; D_n has order 2n; character inner products are antilinear in the first slot. Use the lecture’s notation and only tools taught so far.
+
+Ask me for my argument first. Check each step against its hypotheses. Point me to the first gap and offer a small case to test; let me repair it. Do not provide a complete replacement proof.</pre></div> <div class="prompt-actions"> <button class="btn" type="button" data-copy>Copy prompt</button> <span class="ask-status" data-status role="status" aria-live="polite"></span> </div> </details><h2>Work in pairs</h2> <ol class="steps"> <li>Try the question before opening a hint.</li><li>State the definitions and hypotheses you used.</li><li>Check a small group, a matrix or a degenerate case.</li><li>Explain the repair in your own words.</li> </ol> <div class="trap"> <h3>Check common mistakes</h3> <p><strong>Check conventions.</strong> Test permutation order, normality and the first-slot conjugation.</p> </div> <script>
+    (function () {
+      /** Copy synchronously inside the click; the async API is the fallback. */
+      function copy(text) {
+        var area = document.createElement("textarea");
+        area.value = text;
+        area.setAttribute("readonly", "");
+        area.style.position = "fixed"; area.style.opacity = "0"; area.style.top = "0";
+        document.body.appendChild(area);
+        area.select();
+        var ok = false;
+        try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+        document.body.removeChild(area);
+        if (!ok && navigator.clipboard) {
+          navigator.clipboard.writeText(text).catch(function () {});
+          ok = true;
+        }
+        return ok;
+      }
+      function say(status, message) {
+        if (!status) return;
+        status.textContent = message;
+        status.classList.add("is-live");
+      }
+
+      // ---- Ask about a lecture -------------------------------------------
+      var ask = document.querySelector("[data-ask]");
+      if (ask) {
+        var data = JSON.parse(ask.dataset.ask);
+        var text = JSON.parse(ask.dataset.text);
+        var lectureSelect = ask.querySelector("[data-lecture]");
+        var topics = ask.querySelector("[data-topics]");
+        var detail = ask.querySelector("[data-detail]");
+        var detailLabel = ask.querySelector("[data-detail-label]");
+        var preview = ask.querySelector("[data-preview]");
+        var status = ask.querySelector("[data-status]");
+
+        var fill = function (template, values) {
+          return template.replace(/\{(\w+)\}/g, function (whole, key) {
+            return key in values ? values[key] : whole;
+          });
+        };
+        var lecture = function () {
+          return data.lectures.find(function (l) { return String(l.id) === lectureSelect.value; });
+        };
+        var mode = function () {
+          var picked = ask.querySelector("input[name=ask-mode]:checked");
+          return data.modes.find(function (m) { return m.id === (picked && picked.value); }) || data.modes[0];
+        };
+        var topic = function () {
+          var picked = ask.querySelector("input[name=ask-topic]:checked");
+          return picked ? picked.value : "";
+        };
+
+        var renderTopics = function () {
+          topics.textContent = "";
+          lecture().sections.forEach(function (title, index) {
+            var label = document.createElement("label");
+            label.className = "topic-chip";
+            var input = document.createElement("input");
+            input.type = "radio"; input.name = "ask-topic"; input.value = title; input.checked = index === 0;
+            var span = document.createElement("span");
+            span.textContent = title;
+            label.appendChild(input); label.appendChild(span);
+            topics.appendChild(label);
+          });
+        };
+        var render = function () {
+          var l = lecture(), m = mode(), typed = detail.value.trim();
+          detailLabel.textContent = m.detailLabel;
+          detail.placeholder = m.detailPlaceholder;
+          var context = fill(data.context, { n: l.id, title: l.title, topic: topic() });
+          var detailText = typed ? fill(m.detailFilled, { detail: typed }) : m.detailEmpty;
+          preview.value = fill(m.template, { context: context, detail: detailText })
+            .replace(/\n{3,}/g, "\n\n");
+          syncAiMode();
+        };
+        var aiMode = ask.querySelector("[data-ai-mode]");
+        var syncAiMode = function () {
+          aiMode.href = "https://www.google.com/search?udm=50&q=" + encodeURIComponent(preview.value);
+        };
+        // The preview is editable, and an edited prompt is the one to send.
+        preview.addEventListener("input", syncAiMode);
+
+        // A lecture page links here as ai/?lecture=N, so arrive on that lecture.
+        var wanted = new URLSearchParams(location.search).get("lecture");
+        if (wanted && data.lectures.some(function (l) { return String(l.id) === wanted; })) {
+          lectureSelect.value = wanted;
+          renderTopics();
+        }
+        lectureSelect.addEventListener("change", function () { renderTopics(); render(); });
+        // The preview is excluded: its change event fires on blur, and
+        // re-rendering then would throw away what the student just edited.
+        ask.addEventListener("change", function (event) {
+          if (event.target !== lectureSelect && event.target !== preview && event.target !== detail) render();
+        });
+        detail.addEventListener("input", render);
+        render();
+
+        ask.querySelector("[data-copy-preview]").addEventListener("click", function () {
+          if (copy(preview.value)) { say(status, text.copied); }
+          else { preview.select(); say(status, text.selected); }
+        });
+      }
+
+      // ---- The long prompts ----------------------------------------------
+      var strings = ask ? JSON.parse(ask.dataset.text) : { copied: "✓", selected: "Ctrl+C" };
+      document.querySelectorAll("[data-prompt]").forEach(function (card) {
+        var source = card.querySelector("[data-prompt-text]");
+        var body = source.textContent || "";
+        var status = card.querySelector("[data-status]");
+        var selectSource = function () {
+          var range = document.createRange();
+          range.selectNodeContents(source);
+          var selection = window.getSelection();
+          if (selection) { selection.removeAllRanges(); selection.addRange(range); }
+        };
+        card.querySelector("[data-copy]").addEventListener("click", function () {
+          if (copy(body)) { say(status, strings.copied); }
+          else { selectSource(); say(status, strings.selected); }
+        });
+      });
+    })();
+  </script>  </main> <footer class="site-footer"> <div class="wrap"> <p> Finite Groups and Their Representations — Structure, Characters and the Symmetric Group.
+  The exercise sheets are published here as questions only. </p> </div> </footer> <script>
+      document.querySelector("[data-theme-toggle]")?.addEventListener("click", function () {
+        var root = document.documentElement;
+        var current = root.getAttribute("data-theme");
+        if (!current) {
+          current = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        var next = current === "dark" ? "light" : "dark";
+        root.setAttribute("data-theme", next);
+        try { localStorage.setItem("finite-groups-theme", next); } catch (e) {}
+      });
+    </script>  <script type="module" src="/grupes/_astro/Base.astro_astro_type_script_index_0_lang.CaQP8g50.js"></script> </body> </html>
